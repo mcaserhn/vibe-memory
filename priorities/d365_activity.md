@@ -13,9 +13,8 @@
 
 ### Surface Request (Verbatim)
 > "I need to understand which team members are using D365 CRM and what actions they perform under what entities"
-> "I need to present a summary of the D365 CRM usage to the business teams"
 > "I need a set of indicators to measure the activity level of D365 CRM accounts"
-> "I need to create a dashboard that shows the activity level of D365 CRM accounts"
+> "I need a web dashboard that shows the activity level of D365 CRM accounts"
 
 *Example: "I need to see which team members are using D365 CRM and what features they use"*
 
@@ -25,15 +24,17 @@
 
 | Signal | Weight | Your Observation | Evidence/Quote |
 |--------|--------|-----------------|----------------|
-| 🔁 Repeated keywords | 40% | | *"领导要看", "采购决策需要"* |
-| ❓ Skipped questions | 40% | | *Didn't ask about data privacy, only "how fast can we see results?"* |
-| 💰 Resource commitment | 30% | | *"We can pilot with 3 teams first"* |
-| 😰 Expressed anxiety | 20% | | *"Worried about SaaS renewal without usage data"* |
+| 🔁 Repeated keywords | 40% | | *"I need a summary as IT head", "business leadership visibility", "CRM license optimization"* |
+| ❓ Skipped questions | 40% | | *Didn't have a clear idea about the set of indicators, only ask "the result of CRM accounts"* |
+| 💰 Resource commitment | 30% | | *"IT head can do this alone", "no need to involve other teams"* |
+| 😰 Expressed anxiety | 20% | | *"Worried about CRM license optimization without usage data"* |
 
 **Signal Quality Check**:
 - [ ] Are "repeated keywords" consistent with "skipped questions"? (If no, flag for clarification)
-- [ ] Is there a gap between stated request and inferred priority? (Document why)
+**一致**：强调「快」+ 跳过「细节」= 逻辑自洽，无需澄清
 
+- [ ] Is there a gap between stated request and inferred priority? (Document why)
+**小差距**：需要通过看板来研判续费的依据
 ---
 
 ### Inferred True Priority
