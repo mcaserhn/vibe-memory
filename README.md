@@ -9,7 +9,8 @@
 - **Reuse by scenario**: Atomic steps → Verified components → Scenario cards
 
 ## 📁 Repository Structure
-‘‘‘
+
+```
 vibe-memory/
 ├── .ai/ # AI prompt templates with your calibration weights
 │ ├── PROMPT_PRIORITY.md # Business priority decoder (40/40/30/20 weights)
@@ -37,7 +38,7 @@ vibe-memory/
 │ └── drafts/ # Components pending validation
 │
 └── README.md # This file
-’’’
+```
 
 ## 🔑 Your Implicit Knowledge (Calibration Guide)
 
