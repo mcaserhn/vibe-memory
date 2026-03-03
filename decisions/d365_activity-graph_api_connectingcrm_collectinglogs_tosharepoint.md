@@ -1,0 +1,17 @@
+   ## Decision: [Graph API connecting to CRM, collecting logs, and exporting to sharepoint site's folder]
+   - My choice: [参考项目目录下的ref-export_audit_logs.py]
+   - Why: [ref-export_audit_logs.py是以前pilot本项目时做的验证，结果符合预期]
+   - AI suggestion: [无]
+   - Hallucination check: [✓/✗]
+
+   ## Decision: [数据业务逻辑变更]
+   - My choice: [新的数据流逻辑想法是：1.数据采集阶段：每周全量采集crm审计日志（crm端审计日志的保留时间是150天），json格式存储在sharepoint站点的指定目录下，同时存储在本机一份，2.数据处理 阶段：针对本机存储的json文件进行格式化处理，和指标计算，3.阈值评估阶段不变，4. AI分析不变。]
+   - Why: [需求规格说明书v1.1的数据流逻辑不符合预期]
+   - AI suggestion: [有]
+   - Hallucination check: [✓] 
+
+   ## Decision: [数据存储文件夹结构变更]
+   - My choice: [本项目根目录下新建data子目录，在下级新建crm_logs，processed和reports，每个下级目录下按weekly，monthly，quarterly，half-yearly和yearly再建目录]
+   - Why: [需求规格说明书v1.1的数据存储文件夹结构不符合预期]
+   - AI suggestion: [有]
+   - Hallucination check: [✓] 

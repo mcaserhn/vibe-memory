@@ -1,11 +1,11 @@
 
 ---
 
-## 📄 文件 2：`priorities/TEMPLATE.md`（加权优先级解码模板）
+## 📄 文件 2：`priorities/d365_activity.md`（加权优先级解码模板）
 
 ```markdown
-## 🎯 Priority Log: [Project Name]
-**Date**: YYYY-MM-DD  
+## 🎯 Priority Log: [Project Name] - D365 Activity
+**Date**: 2026-03-02  
 **Source**: [Meeting/Email/Observation]  
 **Status**: [🔍 Exploring / ✅ Validated / ❌ Archived]
 
